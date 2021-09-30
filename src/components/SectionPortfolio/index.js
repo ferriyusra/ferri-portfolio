@@ -44,7 +44,7 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/recipe-app/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
@@ -125,7 +125,7 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
@@ -150,7 +150,7 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
