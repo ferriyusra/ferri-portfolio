@@ -14,7 +14,7 @@ export default function SectionSkill() {
                 <div className="section-title mt-5">
                     <h2>Kemampuan</h2>
                     <p>Saya belajar pertama kali programming tentang website development dengan bahasa pemograman <FaPhp style={{ width: 50, height: 50 }} /> PHP.
-                        Tetapi saya sampai saat ini masih belajar bahasa pemograman lainnya yang berhubungan dengan Backend Developer atau Web Developer. Saat ini saya masih mempelajari bahasa-bahasa pemograman lain seperti <LgJavascript style={{ width: 30, height: 30 }} /> Javascript dan <GrGolang style={{ width: 30, height: 30 }} /> Golang.
+                        Tetapi saya sampai saat ini masih belajar bahasa pemograman lainnya yang berhubungan dengan Backend Developer atau Web Developer. Saat ini saya masih mempelajari dasar-dasar bahasa pemograman lain seperti <LgJavascript style={{ width: 30, height: 30 }} /> Javascript dan <GrGolang style={{ width: 30, height: 30 }} /> Golang.
                     </p>
                 </div>
                 <div className="row">

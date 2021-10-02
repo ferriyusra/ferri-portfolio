@@ -1,7 +1,7 @@
 import React from 'react'
-// import Wrapper from '../Wrapper'
 
 import layananKarir from '../../images/laravel-layanankarir.png'
+import analisis from '../../images/analisis.jpg'
 import webGis from '../../images/webgis.png'
 import resep from '../../images/resep-phpnative.png'
 
@@ -11,6 +11,8 @@ import LgBootstrap from '@meronex/icons/lg/LgBootstrap';
 import LgCodeigniter from '@meronex/icons/lg/LgCodeigniter';
 import LgLaravel from '@meronex/icons/lg/LgLaravel';
 import RubberBand from 'react-reveal/RubberBand';
+import LgPython from '@meronex/icons/lg/LgPython';
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,17 +29,17 @@ export default function SectionPortfolio() {
             <div className="container">
                 <div className="row section-skill-card">
                     <div className="section-title mt-5" >
-                        <h2>Portfolio</h2>
+                        <h2>Proyek Aplikasi</h2>
                     </div>
                     <div className="container mx-auto main">
 
-                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="300">
+                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="400">
                             <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start mt-5">
                                 <h1 className="title-font mt-5">Pusat Layanan Karir Kampus</h1>
                                 <p className="text-gray-1 caption-font">
                                     Website ini merupakan website Pusat Layanan Karir Kampus.<br
                                         className="d-md-block d-none" />
-                                    Website ini befungsi untuk memberikan informasi terkait kegiatana kampus, seperti
+                                    Website ini befungsi untuk memberikan informasi terkait kegiatan kampus, seperti
                                     seminar, workshop, pelatihan kerja dan juga lowongan pekerjaan. Serta diwebsite ini
                                     terdapat fitur membuat soal kuisioner untuk mahasiswa, dengan tipe soal essai
                                     atau pilihan ganda. Dan juga terdapat info grafik terkait jumlah mahasiswa yang telah
@@ -48,8 +50,11 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
+                                        <a href="http://pusat-layanan-karir.my.id/" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
+                                        </a>
+                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-block text-white mb-5 mr-5" rel="noopener noreferrer">
+                                            Github
                                         </a>
                                     </div>
                                 </RubberBand>
@@ -63,18 +68,35 @@ export default function SectionPortfolio() {
                         </div>
 
                         <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0"
-                            data-aos="fade-up" data-aos-delay="200">
+                            data-aos="fade-up" data-aos-delay="300">
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
                                 <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={webGis} />
+                                    <img className="w-100 img-fluid" src={analisis} />
                                 </div>
                             </div>
 
                             <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-end"
                                 style={{ marginTop: 2 + 'rem' }}>
-                                <h1 className="title-font mt-5 text-end">Peta Penyebaran Toko Oleh-Oleh Makanan Khas Bogor</h1>
+                                <h1 className="title-font mt-5 text-end">Aplikasi Machine Learning berbasis Desktop Analisis Sentimen untuk mengklasifikasi sebuat data tweet</h1>
                                 <p className="text-gray-1 caption-font text-end">
+                                    Aplikasi ini dibuat menggunakan bahasa pemograman Python <LgPython /><br className="d-md-block d-none" />
+                                    Aplikasi ini memiliki beberapa fitur yaitu untuk melakukan pengambilan data tweet dari media sosial twitter, dapat melakukan pembersihan data tweet dengan teknik pre-processing, memberikan hasil visualisasi data dengan bentuk barchart, piechart dan wordcloud dan melakukan klasifikasi terhadap data tweet agar memiliki makna sentimen positif atau negatif secara otomatis. <br className="d-md-block d-none" />
+                                </p>
+                                <RubberBand>
+                                    <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
+                                        <a href="https://github.com/ferriyusra/Analisis-Sentimen-Naive-Bayes/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
+                                            Github
+                                        </a>
+                                    </div>
+                                </RubberBand>
+                            </div>
+                        </div>
+
+                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="200">
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start mt-5" style={{ marginTop: 2 + 'rem' }}>
+                                <h1 className="title-font mt-5">Peta Penyebaran Toko Oleh-Oleh Makanan Khas Bogor</h1>
+                                <p className="text-gray-1 caption-font">
                                     Website ini berbasis
                                     Sistem Informasi Geografis<br className="d-md-block d-none" />
                                     yang berfungsi untuk memetakan Lokasi kedalam Peta.
@@ -128,20 +150,36 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
+                                        <a href="https://sig-toko-oleh-oleh-makanan-bogor.my.id/" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
+                                        </a>
+                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
+                                            Github
                                         </a>
                                     </div>
                                 </RubberBand>
+                            </div>
+                            <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
+                                style={{ zIndex: 10 }}>
+                                <div className="frame" style={{ marginTop: 2 + 'rem' }}>
+                                    <img className="w-100 img-fluid" src={webGis} />
+                                </div>
                             </div>
                         </div>
 
 
                         <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="100"
                         >
-                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start">
-                                <h1 className="title-font">Website Resep Masakan Khas Sumatera Barat</h1>
-                                <p className="text-gray-1 caption-font">
+                            <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
+                                style={{ zIndex: 10 }}>
+                                <div className="frame" style={{ marginTop: 2 + 'rem' }}>
+                                    <img className="w-100 img-fluid" src={resep} />
+                                </div>
+                            </div>
+
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-end" style={{ marginTop: 2 + 'rem' }}>
+                                <h1 className="title-font text-end mt-5">Website Resep Masakan Khas Sumatera Barat</h1>
+                                <p className="text-gray-1 caption-font text-end">
                                     Website ini merupakan website resep masakan<br className="d-md-block d-none" />
                                     khas Sumatera Barat.<br className="d-md-block d-none" />
                                     Website ini digunakan dengan PHP Native {<LgPhp style={{ width: 40, height: 40 }} />} sebagai backend dan frontend, Bootstrap 4 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
@@ -152,18 +190,13 @@ export default function SectionPortfolio() {
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
                                         <a href="https://github.com/ferriyusra/recipe-app/issues/1" target="_blank" rel="noopener noreferrer" className="btn btn-get d-inline-flex text-white mb-5">
-                                            Lihat Aplikasi
+                                            Github
                                         </a>
                                     </div>
                                 </RubberBand>
                             </div>
 
-                            <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
-                                style={{ zIndex: 10 }}>
-                                <div className="frame" style={{ marginTop: 1 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={resep} />
-                                </div>
-                            </div>
+
                         </div>
 
                     </div>
