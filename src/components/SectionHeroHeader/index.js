@@ -35,9 +35,12 @@ export default function SectionHeroHeader() {
                                 Developer. <br className="d-md-block d-none" />
                             </p>
                         </Swing>
-                        <a href="#" className="btn btn-get d-inline-flex text-white" data-aos-delay="50"
+                        <a href="https://drive.google.com/drive/folders/1Gy_5kwKNcHj4E4u5Xhayvb8dM3OeM4vx?usp=sharing" className="btn btn-get d-inline-flex text-white" data-aos-delay="50"
                             data-aos-duration="1000"
-                            data-aos="fade-up">
+                            data-aos="fade-up"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Download CV
                         </a>
                     </div>
