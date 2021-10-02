@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84e7dd06.chunk.css",
+    "main.js": "/static/js/main.e9be02e9.chunk.js",
+    "main.js.map": "/static/js/main.e9be02e9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2c326e8e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2c326e8e.js.map",
+    "static/css/2.7c29a2c2.chunk.css": "/static/css/2.7c29a2c2.chunk.css",
+    "static/js/2.3f6d7bbe.chunk.js": "/static/js/2.3f6d7bbe.chunk.js",
+    "static/js/2.3f6d7bbe.chunk.js.map": "/static/js/2.3f6d7bbe.chunk.js.map",
+    "static/js/3.0e32891e.chunk.js": "/static/js/3.0e32891e.chunk.js",
+    "static/js/3.0e32891e.chunk.js.map": "/static/js/3.0e32891e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7c29a2c2.chunk.css.map": "/static/css/2.7c29a2c2.chunk.css.map",
+    "static/css/main.84e7dd06.chunk.css.map": "/static/css/main.84e7dd06.chunk.css.map",
+    "static/js/2.3f6d7bbe.chunk.js.LICENSE.txt": "/static/js/2.3f6d7bbe.chunk.js.LICENSE.txt",
+    "static/media/analisis.07184ae8.jpg": "/static/media/analisis.07184ae8.jpg",
+    "static/media/icon-landing.1fe90c0d.png": "/static/media/icon-landing.1fe90c0d.png",
+    "static/media/icon-new-ferri.ea7880b5.png": "/static/media/icon-new-ferri.ea7880b5.png",
+    "static/media/laravel-layanankarir.e5ebd679.png": "/static/media/laravel-layanankarir.e5ebd679.png",
+    "static/media/resep-phpnative.9e6e55dc.png": "/static/media/resep-phpnative.9e6e55dc.png",
+    "static/media/webgis.dad60e85.png": "/static/media/webgis.dad60e85.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c326e8e.js",
+    "static/css/2.7c29a2c2.chunk.css",
+    "static/js/2.3f6d7bbe.chunk.js",
+    "static/css/main.84e7dd06.chunk.css",
+    "static/js/main.e9be02e9.chunk.js"
+  ]
+}
