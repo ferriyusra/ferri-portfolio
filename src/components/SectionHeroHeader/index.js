@@ -43,7 +43,7 @@ export default function SectionHeroHeader() {
                     </div>
                     <div className="col-lg-6 p-0 d-flex text-center justify-content-lg-start justify-content-center d-flex">
                         <Jump>
-                            <img className="hero-img" id="hero-header-4-1" src={landingPageImage} alt="" />
+                            <img className="hero-img" id="hero-header-4-1" src={landingPageImage} alt="feri hero" />
                         </Jump>
                     </div>
                 </div>

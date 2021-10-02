@@ -62,7 +62,7 @@ export default function SectionPortfolio() {
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
                                 <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={layananKarir} />
+                                    <img className="w-100 img-fluid" src={layananKarir} alt="Layanan Karir" />
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export default function SectionPortfolio() {
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
                                 <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={analisis} />
+                                    <img className="w-100 img-fluid" src={analisis} alt="analisis sentimen" />
                                 </div>
                             </div>
 
@@ -162,7 +162,7 @@ export default function SectionPortfolio() {
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
                                 <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={webGis} />
+                                    <img className="w-100 img-fluid" src={webGis} alt="web gis" />
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ export default function SectionPortfolio() {
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
                                 <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={resep} />
+                                    <img className="w-100 img-fluid" src={resep} alt="resep" />
                                 </div>
                             </div>
 
