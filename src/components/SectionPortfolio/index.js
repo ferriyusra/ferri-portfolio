@@ -23,38 +23,41 @@ const myStyleImg = {
 
 export default function SectionPortfolio() {
     return (
-        <section className="portfolio mt-5" style={myStyleImg}>
+        <section className="portfolio mt-5" style={myStyleImg} id="portfolio">
             <div className="container">
                 <div className="row section-skill-card">
                     <div className="section-title mt-5" >
                         <h2>Portfolio</h2>
                     </div>
                     <div className="container mx-auto main">
-                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="100"
-                        >
-                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start">
-                                <h1 className="title-font">Website Resep Masakan Khas Sumatera Barat</h1>
+
+                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="300">
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start mt-5">
+                                <h1 className="title-font mt-5">Pusat Layanan Karir Kampus</h1>
                                 <p className="text-gray-1 caption-font">
-                                    Website ini merupakan website resep masakan<br className="d-md-block d-none" />
-                                    khas Sumatera Barat.<br className="d-md-block d-none" />
-                                    Website ini digunakan dengan PHP Native {<LgPhp style={{ width: 40, height: 40 }} />} sebagai backend dan frontend, Bootstrap 4 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
-                                    untuk membuat tampilan antarmuka pengguna dan MySQL Database untuk  penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />}.<br className="d-md-block d-none" />
-                                    Website ini dapat melihat informasi dari Resep Masakan Khas Sumatera Barat, diwebsite
-                                    ini dapat login serta memberikan komentar terkait video dan resep yang diberikan.
+                                    Website ini merupakan website Pusat Layanan Karir Kampus.<br
+                                        className="d-md-block d-none" />
+                                    Website ini befungsi untuk memberikan informasi terkait kegiatana kampus, seperti
+                                    seminar, workshop, pelatihan kerja dan juga lowongan pekerjaan. Serta diwebsite ini
+                                    terdapat fitur membuat soal kuisioner untuk mahasiswa, dengan tipe soal essai
+                                    atau pilihan ganda. Dan juga terdapat info grafik terkait jumlah mahasiswa yang telah
+                                    mengisi kuisioner tersebut.<br className="d-md-block d-none" />
+                                    Website ini dibuat dengan Bahasa pemograman PHP {<LgPhp style={{ width: 40, height: 40 }} />} dengan menggunakan framework Laravel 7 <LgLaravel style={{ width: 40, height: 40 }} /> sebagai backend dan frontend, Bootstrap 5 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
+                                    untuk membuat tampilan antarmuka pengguna. Serta MySQL Database untuk penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />} .<br
+                                        className="d-md-block d-none" />
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="https://github.com/ferriyusra/recipe-app/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
                                 </RubberBand>
                             </div>
-
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
-                                <div className="frame" style={{ marginTop: 1 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={resep} />
+                                <div className="frame" style={{ marginTop: 2 + 'rem' }}>
+                                    <img className="w-100 img-fluid" src={layananKarir} />
                                 </div>
                             </div>
                         </div>
@@ -125,7 +128,7 @@ export default function SectionPortfolio() {
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
@@ -133,36 +136,36 @@ export default function SectionPortfolio() {
                             </div>
                         </div>
 
-                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="300">
-                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start mt-5">
-                                <h1 className="title-font mt-5">Pusat Layanan Karir Kampus</h1>
+
+                        <div className="mx-auto d-flex flex-lg-row flex-column position-relative gap-md-4 gap-0" data-aos="fade-up" data-aos-delay="100"
+                        >
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start">
+                                <h1 className="title-font">Website Resep Masakan Khas Sumatera Barat</h1>
                                 <p className="text-gray-1 caption-font">
-                                    Website ini merupakan website Pusat Layanan Karir Kampus.<br
-                                        className="d-md-block d-none" />
-                                    Website ini befungsi untuk memberikan informasi terkait kegiatana kampus, seperti
-                                    seminar, workshop, pelatihan kerja dan juga lowongan pekerjaan. Serta diwebsite ini
-                                    terdapat fitur membuat soal kuisioner untuk mahasiswa, dengan tipe soal essai
-                                    atau pilihan ganda. Dan juga terdapat info grafik terkait jumlah mahasiswa yang telah
-                                    mengisi kuisioner tersebut.<br className="d-md-block d-none" />
-                                    Website ini dibuat dengan Bahasa pemograman PHP {<LgPhp style={{ width: 40, height: 40 }} />} dengan menggunakan framework Laravel 7 <LgLaravel style={{ width: 40, height: 40 }} /> sebagai backend dan frontend, Bootstrap 5 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
-                                    untuk membuat tampilan antarmuka pengguna. Serta MySQL Database untuk penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />} .<br
-                                        className="d-md-block d-none" />
+                                    Website ini merupakan website resep masakan<br className="d-md-block d-none" />
+                                    khas Sumatera Barat.<br className="d-md-block d-none" />
+                                    Website ini digunakan dengan PHP Native {<LgPhp style={{ width: 40, height: 40 }} />} sebagai backend dan frontend, Bootstrap 4 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
+                                    untuk membuat tampilan antarmuka pengguna dan MySQL Database untuk  penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />}.<br className="d-md-block d-none" />
+                                    Website ini dapat melihat informasi dari Resep Masakan Khas Sumatera Barat, diwebsite
+                                    ini dapat login serta memberikan komentar terkait video dan resep yang diberikan.
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
-                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5">
+                                        <a href="https://github.com/ferriyusra/recipe-app/issues/1" target="_blank" rel="noopener noreferrer" className="btn btn-get d-inline-flex text-white mb-5">
                                             Lihat Aplikasi
                                         </a>
                                     </div>
                                 </RubberBand>
                             </div>
+
                             <div className="right-col flex-lg-grow-1 d-flex flex-column align-items-center text-center"
                                 style={{ zIndex: 10 }}>
-                                <div className="frame" style={{ marginTop: 2 + 'rem' }}>
-                                    <img className="w-100 img-fluid" src={layananKarir} />
+                                <div className="frame" style={{ marginTop: 1 + 'rem' }}>
+                                    <img className="w-100 img-fluid" src={resep} />
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
