@@ -45,16 +45,15 @@ export default function SectionPortfolio() {
                                     atau pilihan ganda. Dan juga terdapat info grafik terkait jumlah mahasiswa yang telah
                                     mengisi kuisioner tersebut.<br className="d-md-block d-none" />
                                     Website ini dibuat dengan Bahasa pemograman PHP {<LgPhp style={{ width: 40, height: 40 }} />} dengan menggunakan framework Laravel 7 <LgLaravel style={{ width: 40, height: 40 }} /> sebagai backend dan frontend, Bootstrap 5 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
-                                    untuk membuat tampilan antarmuka pengguna. Serta MySQL Database untuk penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />} .<br
-                                        className="d-md-block d-none" />
+                                    untuk membuat tampilan antarmuka pengguna. Serta MySQL Database untuk penyimpanan data {<SiMysql style={{ width: 40, height: 40 }} />}. <br className="d-md-block d-none" />
+                                    <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="d-inline-block text-dark mr-5" rel="noopener noreferrer">
+                                        Lihat di Github
+                                    </a>
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
                                         <a href="http://pusat-layanan-karir.my.id/" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
-                                        </a>
-                                        <a href="https://github.com/ferriyusra/e-career/issues/1" target="_blank" className="btn btn-get d-inline-block text-white mb-5 mr-5" rel="noopener noreferrer">
-                                            Github
                                         </a>
                                     </div>
                                 </RubberBand>
@@ -147,14 +146,14 @@ export default function SectionPortfolio() {
                                     Website ini juga dapat menampilkan arah rute ketempat tujuan yang berada didalam maps
                                     dengan posisi kita saat ini. Tetapi website ini terkadang tidak akurat apabila kita
                                     menggunakan GPS melalui Personal Komputer untuk mendapatkan lokasi kita saat ini.
+                                    <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="d-inline-block text-dark mr-5" rel="noopener noreferrer">
+                                        Lihat di Github
+                                    </a>
                                 </p>
                                 <RubberBand>
                                     <div className="d-inline-block align-items-start d-lg-flex justify-content-start">
                                         <a href="https://sig-toko-oleh-oleh-makanan-bogor.my.id/" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
                                             Lihat Aplikasi
-                                        </a>
-                                        <a href="https://github.com/ferriyusra/gis-app-leaflet/issues/1" target="_blank" className="btn btn-get d-inline-flex text-white mb-5" rel="noopener noreferrer">
-                                            Github
                                         </a>
                                     </div>
                                 </RubberBand>

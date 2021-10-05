@@ -222,8 +222,8 @@ header.header-nav-wrapper nav .btn-mobile {
   fill: #ff2d20;
 }
 
-.services .iconbox-pink:hover .icon path {
-  fill: #7952b3;
+.services .iconbox-yellow:hover .icon path {
+  fill: #f0db4f;
 }
 
 .services .iconbox-aqua:hover .icon path {
