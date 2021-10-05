@@ -97,7 +97,7 @@ export default function SectionSkill() {
                                     viewBox="0 0 48 48"
                                     style={{ fill: '#000000' }}><path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M23.783,22.352v9.819 c0,3.764-4.38,4.022-6.283,0.802"></path><path fill="none" stroke="#000001" stroke-miterlimit="10" stroke-width="3.3" d="M34.69,25.343 c-1.739-2.727-5.674-2.345-5.84,0.558c-0.214,3.757,6.768,2.938,6.247,7.107c-0.365,2.92-4.874,3.858-7.193-0.065"></path></svg>
                             </div>
-                            <h4><a href="https://getbootstrap.com/docs/4.6/getting-started/introduction/" target="_blank" rel="noopener noreferrer">JavaScript</a></h4>
+                            <h4><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a></h4>
                             <p>Untuk JavaScript saya pernah mempelajari nya, namun untuk proyek aplikasi yang saya buat menggunakan JavaScript belum ada. Karena aplikasi-aplikasi yang sudah dibuat menggunakan bahasa pemogramana JavaScript hanya mengikuti dari sebuah online tutorial. Tapi saya mengetahui tentang penggunaan JavaScript ini untuk penggunaan Backend dengan NodeJs dan Framework ExpressJs</p>
                         </div>
                     </div>
