@@ -75,10 +75,10 @@ export default function SectionPortfolio() {
                                 </div>
                             </div>
 
-                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-end"
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start"
                                 style={{ marginTop: 2 + 'rem' }}>
-                                <h1 className="title-font mt-5 text-end">Aplikasi Machine Learning berbasis Desktop Analisis Sentimen untuk mengklasifikasi sebuat data tweet</h1>
-                                <p className="text-gray-1 caption-font text-end">
+                                <h1 className="title-font mt-5">Aplikasi Machine Learning berbasis Desktop Analisis Sentimen untuk mengklasifikasi sebuat data tweet</h1>
+                                <p className="text-gray-1 caption-font">
                                     Aplikasi ini dibuat menggunakan bahasa pemograman Python <LgPython /><br className="d-md-block d-none" />
                                     Aplikasi ini memiliki beberapa fitur yaitu untuk melakukan pengambilan data tweet dari media sosial twitter, dapat melakukan pembersihan data tweet dengan teknik pre-processing, memberikan hasil visualisasi data dengan bentuk barchart, piechart dan wordcloud dan melakukan klasifikasi terhadap data tweet agar memiliki makna sentimen positif atau negatif secara otomatis. <br className="d-md-block d-none" />
                                 </p>
@@ -176,9 +176,10 @@ export default function SectionPortfolio() {
                                 </div>
                             </div>
 
-                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-end" style={{ marginTop: 2 + 'rem' }}>
-                                <h1 className="title-font text-end mt-5">Website Resep Masakan Khas Sumatera Barat</h1>
-                                <p className="text-gray-1 caption-font text-end">
+                            <div className="left-col flex-lg-grow-1 d-flex flex-column align-items-start text-start"
+                                style={{ marginTop: 2 + 'rem' }}>
+                                <h1 className="title-font mt-5">Website Resep Masakan Khas Sumatera Barat</h1>
+                                <p className="text-gray-1 caption-font">
                                     Website ini merupakan website resep masakan<br className="d-md-block d-none" />
                                     khas Sumatera Barat.<br className="d-md-block d-none" />
                                     Website ini digunakan dengan PHP Native {<LgPhp style={{ width: 40, height: 40 }} />} sebagai backend dan frontend, Bootstrap 4 {<LgBootstrap style={{ width: 30, height: 30 }} />} sebagai Framework atau library CSS
