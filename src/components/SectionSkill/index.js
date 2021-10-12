@@ -115,7 +115,7 @@ export default function SectionSkill() {
                             <p>Untuk melakukan test dari API yang telah dibuat saya dapat menggunakan Postman API dengan http method dari sebuah alamat API itu sendiri.</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                    {/* <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
                         data-aos-delay="700">
                         <div className="icon-box iconbox-green">
                             <div className="icon">
@@ -166,7 +166,7 @@ export default function SectionSkill() {
                             <h4><a href="https://spec.openapis.org/oas/v3.1.0" target="_blank" rel="noopener noreferrer">Open API</a></h4>
                             <p>Saya pernah belajar bagaimana membuat dokumentasi sebuah API dengan Open API.Dengan tools ini dapat dilihat spesifikasi API yang dibutuhkan. </p>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
