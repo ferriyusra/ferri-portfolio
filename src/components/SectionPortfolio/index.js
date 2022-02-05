@@ -36,7 +36,7 @@ export default function SectionPortfolio() {
 
                         {projects.status === 'process' && !projects.data.length ? <div className="flex justify-center text-center mb-4">
                             <FadeLoader
-                                color="#3743e3"
+                                color="black"
                                 className="mb-4"
                             />
                         </div> : null}
