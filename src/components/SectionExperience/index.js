@@ -19,11 +19,11 @@ export default function SectionExperience() {
                 </div>
                 <div className="row">
                     <div className="col-lg-12 col-md-6 d-block text-center" data-aos="zoom-in" data-aos-delay="100">
-                        <VerticalTimeline lineColor='#4d4e4f' layout='1-column-left'>
+                        <VerticalTimeline lineColor='#4d4e4f'>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element-work"
                                 contentStyle={{ background: '#707173', color: '#fff' }}
-                                contentArrowStyle={{ borderRight: '7spx solid  #3743e3' }}
+                                contentArrowStyle={{ borderRight: '7px solid  #707173' }}
                                 iconStyle={{ background: '#4d4e4f', color: '#fff' }}
                                 icon={<MdWork />}
                                 position="left"
@@ -34,7 +34,6 @@ export default function SectionExperience() {
                                     Oktober 2021 - Januari 2022
                                 </p>
                             </VerticalTimelineElement>
-
                         </VerticalTimeline>
                     </div>
 
