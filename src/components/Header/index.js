@@ -21,6 +21,7 @@ export default function Header() {
                     <Link component={Link} to="home" spy={true} smooth={true}>Beranda</Link>
                     <Link component={Link} to="skills" spy={true} smooth={true}>Kemampuan</Link>
                     <Link component={Link} to="portfolio" spy={true} smooth={true}>Proyek Aplikasi</Link>
+                    <Link component={Link} to="experience" spy={true} smooth={true}>Pengalaman Kerja</Link>
                     <Link component={Link} to="contact" spy={true} smooth={true}>Kontak</Link>
                 </nav>
                 <FaBars className={`fa fa-bars secondnav-toggler ${sideBar ? "active" : ""}`} onClick={showSidebar} />

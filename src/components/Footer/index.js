@@ -39,7 +39,7 @@ export default function Footer() {
                         </nav>
                         <nav className="d-flex flex-lg-row flex-column align-items-center justify-content-center">
                             <Jump>
-                                <p style={{ margin: 0 }}>© 2021 Ferri Yusra | Build with : <GrReactjs style={{ width: 30, height: 30 }} /> | <LgBootstrap style={{ width: 30, height: 30 }} /> </p>
+                                <p style={{ margin: 0 }}>© {(new Date().getFullYear())} Ferri Yusra | Build with : <GrReactjs style={{ width: 30, height: 30 }} /> | <LgBootstrap style={{ width: 30, height: 30 }} /> </p>
                             </Jump>
                         </nav>
                     </div>

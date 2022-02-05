@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import SectionSkill from '../../components/SectionSkill'
 import SectionPortfolio from '../../components/SectionPortfolio'
+import SectionExperience from '../../components/SectionExperience'
 import Footer from '../../components/Footer'
 import { Helmet } from 'react-helmet'
 import ScrollTop from "react-scrolltop-button";
@@ -11,11 +12,17 @@ import OiArrowTop from '@meronex/icons/oi/OiArrowTop';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+const TITLE = 'Ferri Yusra Portfolio';
+
 AOS.init();
 
-const TITLE = 'Ferri Yusra Portfolio'
+const myStyleImg = {
+    backgroundColor: '#F9F8F8',
+}
 
 export default function Home() {
+
     return (
         <div>
             <Helmet>
@@ -24,6 +31,7 @@ export default function Home() {
             <Header />
             <SectionSkill />
             <SectionPortfolio />
+            <SectionExperience />
             <Footer />
             <ScrollTop
                 data-aos-duration="1000"
