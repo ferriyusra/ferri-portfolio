@@ -27,15 +27,14 @@ export default function SectionHeroHeader() {
                         </Tada>
                         <Swing>
                             <p className="caption-font text-gray-1" data-aos-duration="1000">
-                                Hai <span>👋</span> nama saya Ferri Yusra, biasa disapa Ferri. Saya lulusan baru dari kampus
+                                Hai <span>👋</span> nama saya Ferri Yusra, biasa disapa Ferri. Saya lulusan dari kampus
                                 saya di
                                 STMIK Jakarta STI&K jurusan Sistem Informasi. <br className="d-md-block d-none" />
-                                Saya memiliki minat dibidang Web Developer dan Backend Developer.
-                                Saat ini saya terbuka untuk pekerjaan Jr. Website Developer atau Jr. Backend
-                                Developer. <br className="d-md-block d-none" />
+                                Saya memiliki minat karir dibidang Software Engineer Backend.
+                                Saat ini saya terbuka untuk pekerjaan Software Engineer Backend. <br className="d-md-block d-none" />
                             </p>
                         </Swing>
-                        <a href="https://drive.google.com/drive/folders/1Gy_5kwKNcHj4E4u5Xhayvb8dM3OeM4vx?usp=sharing" className="btn btn-get d-inline-flex text-white" data-aos-delay="50"
+                        <a href="https://drive.google.com/drive/folders/1Gy_5kwKNcHj4E4u5Xhayvb8dM3OeM4vx?usp=share_link" className="btn btn-get d-inline-flex text-white" data-aos-delay="50"
                             data-aos-duration="1000"
                             data-aos="fade-up"
                             target="_blank"

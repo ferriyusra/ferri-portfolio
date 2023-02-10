@@ -96,8 +96,8 @@ header.header-nav-wrapper nav .btn-mobile {
   color: #4b4b4b;
 }
 
-.section-hero #menu-toggle:checked + #menu,
-.section-hero #menu-toggle:checked + #menu + #menu {
+.section-hero #menu-toggle:checked+#menu,
+.section-hero #menu-toggle:checked+#menu+#menu {
   display: block;
 }
 
@@ -115,6 +115,7 @@ header.header-nav-wrapper nav .btn-mobile {
   background-color: #2f3ad3;
   transition: 0.3s;
 }
+
 .section-skill-card .btn-get {
   font: 500 0.875rem/1.25rem Roboto, sans-serif;
   padding: 1rem 2.5rem;
@@ -171,6 +172,7 @@ header.header-nav-wrapper nav .btn-mobile {
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 100px;
@@ -181,34 +183,41 @@ header.header-nav-wrapper nav .btn-mobile {
   transition: ease-in-out 0.3s;
   position: relative;
 }
+
 .services .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
+
 .services .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
+
 .services .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
+
 .services .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
+
 .services .icon-box h4 a {
   color: #45505b;
   transition: ease-in-out 0.3s;
 }
+
 .services .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
+
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
@@ -229,9 +238,23 @@ header.header-nav-wrapper nav .btn-mobile {
 .services .iconbox-aqua:hover .icon path {
   fill: #4479a1;
 }
+
+.services .iconbox-black:hover .icon path {
+  fill: #000000;
+}
+
+.services .iconbox-green-mongo:hover .icon path {
+  fill: #116149;
+}
+
+.services .iconbox-blue-go:hover .icon path {
+  fill: #007D9c;
+}
+
 .services .iconbox-green:hover .icon path {
   fill: #94c73d;
 }
+
 .services .iconbox-orange:hover .icon path {
   fill: #e05320;
 }
@@ -240,6 +263,7 @@ header.header-nav-wrapper nav .btn-mobile {
   text-align: center;
   padding-bottom: 30px;
 }
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -249,12 +273,14 @@ header.header-nav-wrapper nav .btn-mobile {
   position: relative;
   color: #45505b;
 }
+
 .section-title p {
   font: 500 1rem/2.3rem roboto, sans-serif;
   margin-top: 2rem;
   margin-bottom: 0;
   margin-bottom: 2rem;
 }
+
 .portfolio-btn-get {
   font: 500 0.875rem/1.25rem Roboto, sans-serif;
   padding: 1rem 2.5rem;
@@ -316,6 +342,7 @@ header.header-nav-wrapper nav .btn-mobile {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .section-skill-card .frame {
   position: relative;
 }
@@ -452,6 +479,7 @@ header.header-nav-wrapper nav .btn-mobile {
     cursor: pointer;
   }
 }
+
 /* sm */
 @media (min-width: 576px) {
   .section-hero .title-font {
@@ -472,10 +500,12 @@ header.header-nav-wrapper nav .btn-mobile {
   .section-hero .btn-get {
     margin-bottom: 0rem;
   }
+
   .section-skill-card .btn-get {
     margin-bottom: 0rem;
   }
 }
+
 /* lg */
 @media (min-width: 992px) {
   .section-hero .main {
@@ -496,6 +526,7 @@ header.header-nav-wrapper nav .btn-mobile {
     width: auto;
   }
 }
+
 /* xl */
 @media (min-width: 1200px) {
   .section-hero .main {
@@ -532,8 +563,8 @@ header.header-nav-wrapper nav .btn-mobile {
     padding: 0 6rem 3rem;
   }
 }
-@media (min-width: 576px) {
-}
+
+@media (min-width: 576px) {}
 
 @media (min-width: 768px) {
   .section-skill-card .main {

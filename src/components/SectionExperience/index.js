@@ -28,6 +28,23 @@ export default function SectionExperience() {
                                 icon={<MdWork />}
                                 position="left"
                             >
+                                <h3 className="vertical-timeline-element-title">PT Moladin Digital Indonesia</h3>
+                                <h4 className="vertical-timeline-element-subtitle">Software Engineer Backend</h4>
+                                <p>
+                                    Maret 2022 - Februari 2023
+                                </p>
+                            </VerticalTimelineElement>
+                        </VerticalTimeline>
+
+                        <VerticalTimeline lineColor='#4d4e4f'>
+                            <VerticalTimelineElement
+                                className="vertical-timeline-element-work"
+                                contentStyle={{ background: '#707173', color: '#fff' }}
+                                contentArrowStyle={{ borderRight: '7px solid  #707173' }}
+                                iconStyle={{ background: '#4d4e4f', color: '#fff' }}
+                                icon={<MdWork />}
+                                position="right"
+                            >
                                 <h3 className="vertical-timeline-element-title">PT Jojonomic Indonesia</h3>
                                 <h4 className="vertical-timeline-element-subtitle">Backend Developer</h4>
                                 <p>
@@ -36,7 +53,6 @@ export default function SectionExperience() {
                             </VerticalTimelineElement>
                         </VerticalTimeline>
                     </div>
-
 
                 </div>
             </div>
