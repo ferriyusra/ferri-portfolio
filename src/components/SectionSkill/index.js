@@ -29,7 +29,7 @@ export default function SectionSkill() {
                                 </svg>
                             </div>
                             <h4><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">JavaScript</a></h4>
-                            <p>Untuk JavaScript saya memiliki pengalaman dalam menggunakan Vanilla JavaScript,dan penggunaan dari  ES6, dan sampai saat ini saya masih menggunakan JavaScript serta ekosistemnya seperti NodeJs untuk Backend.</p>
+                            <p>Untuk JavaScript saya memiliki pengalaman dalam menggunakan JavaScript serta ES6. Sampai saat ini saya masih menggunakan JavaScript serta ekosistemnya seperti NodeJs untuk pembuatan API Service.</p>
                         </div>
                     </div>
 
@@ -63,7 +63,7 @@ export default function SectionSkill() {
                                 </div>
                             </RubberBand>
                             <h4><a href="https://expressjs.com/en/4x/api.html">Go-Lang</a></h4>
-                            <p>Untuk pembuatan API Service menggunakan Go-Lang, saya pernah menggunakan untuk salah satu projek, dan tanpa menggunakan Framework Seperti Gin atau Echo yang sedang populer.</p>
+                            <p>Saya pernah terlibat dalam pembuatan API Service dengan menggunakan Go-Lang. Sampai saat ini saya masih mempelajari nya.</p>
                         </div>
                     </div>
 
@@ -154,7 +154,7 @@ export default function SectionSkill() {
                                 </div>
                             </RubberBand>
                             <h4><a href="https://www.php.net/" target="_blank" rel="noopener noreferrer">PHP</a></h4>
-                            <p>Saya dapat menggunakan bahasa pemograman PHP sebagai bahasa utama saya dalam hal untuk membuat website aplikasi untuk bagian backend atau frontend.</p>
+                            <p>Saya dapat menggunakan bahasa pemograman PHP Native dalam pembuatan website.</p>
                         </div>
                     </div>
 
@@ -172,8 +172,7 @@ export default function SectionSkill() {
                                 </div>
                             </RubberBand>
                             <h4><a href="https://laravel.com/" target="_blank" rel="noopener noreferrer">Laravel</a></h4>
-                            <p>Laravel merupakan salah satu Framework dari PHP yang saya gunakan saat untuk pembuatan web aplikasi terakhir ini dan salah satu
-                                yang saya dalami untuk Framework PHP.</p>
+                            <p>Laravel merupakan salah satu Framework dari PHP yang saya gunakan ketika pembuatan website.</p>
                         </div>
                     </div>
 
