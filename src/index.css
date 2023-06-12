@@ -610,11 +610,3 @@ header.header-nav-wrapper nav .btn-mobile {
 		transition: transform 250ms ease;
 	}
 }
-
-.sticky {
-	position: sticky;
-	top: 0;
-	background-color: #fff; /* Add any background color you want for the sticky navbar */
-	z-index: 100; /* Add a higher z-index if needed */
-	/* Add any other styles for the sticky navbar */
-}
