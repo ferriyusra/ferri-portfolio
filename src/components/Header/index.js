@@ -16,7 +16,7 @@ export default function Header() {
     return (
         <section className="header-img" id="home">
             <header className="container header-nav-wrapper">
-                <img src={landingPageImageIcon} className="rounded img-fluid" style={myStyleImg} />
+                <img src={landingPageImageIcon} className="rounded img-fluid" style={myStyleImg} alt={landingPageImageIcon} />
                 <nav className={`secondnav ${sideBar ? "active" : ""}`}>
                     <Link component={Link} to="home" spy={true} smooth={true}>Beranda</Link>
                     <Link component={Link} to="skills" spy={true} smooth={true}>Kemampuan</Link>
